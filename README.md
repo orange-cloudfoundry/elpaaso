@@ -1,13 +1,13 @@
 # El PaaSo
 ElPaaSo Repo
 
-This is ElPaaSo root repository. It contains some documentation and links to 
-* elpaaso-wsdl [here] (https://github.com/Orange-OpenSource/elpaaso-wsdl)
+This is ElPaaSo umbrela repository. It contains some documentation and links to 
+* [elpaaso-system-test-apps](https://github.com/Orange-OpenSource/elpaaso-system-test-apps) apps used for automated system tests
+* [elpaaso-wsdl](https://github.com/Orange-OpenSource/elpaaso-wsdl) WSDL contract for SOAP API
+* [elpaaso-plugins-mgt](https://github.com/Orange-OpenSource/elpaaso-plugins-management) Common maven plugin config shared among repos
 
-Repositories not yet available :
+Pendinnd repositories not yet available :
 * elpaaso-core 
 * elpaaso-samples
-* elpaaso-system-test-apps
-* elpaaso-plugins-mgt
 
 
