@@ -6,7 +6,7 @@ This is ElPaaSo umbrela repository. It contains some documentation and links to
 * [elpaaso-wsdl](https://github.com/Orange-OpenSource/elpaaso-wsdl) WSDL contract for SOAP API
 * [elpaaso-plugins-mgt](https://github.com/Orange-OpenSource/elpaaso-plugins-management) Common maven plugin config shared among repos
 
-Pendinnd repositories not yet available :
+Pending repositories not yet available :
 * elpaaso-core 
 * elpaaso-samples
 
