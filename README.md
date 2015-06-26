@@ -10,4 +10,7 @@ Pending repositories not yet available :
 * elpaaso-core 
 * elpaaso-samples
 
+TODOs: 
+* add pointer to Cf summit videos + slides
+* design docs
 
