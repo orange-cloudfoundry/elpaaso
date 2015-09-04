@@ -8,6 +8,10 @@ This is ElPaaSo umbrela repository. It contains some documentation and links to
 * [elpaaso-plugins-management](https://github.com/Orange-OpenSource/elpaaso-plugins-management) Common maven plugin config shared among repos [![Build Status](https://travis-ci.org/Orange-OpenSource/elpaaso-plugins-management.svg?branch=master)](https://travis-ci.org/Orange-OpenSource/elpaaso-plugins-management)
 * [elpaaso-brokers](https://github.com/Orange-OpenSource/elpaaso-brokers)  [![Build Status](https://travis-ci.org/Orange-OpenSource/elpaaso-brokers.svg?branch=master)](https://travis-ci.org/Orange-OpenSource/elpaaso-brokers)
 
+The artefact binaries are stored on:
+* release are on https://bintray.com/elpaaso
+* snapshots are on [oss.jfrog.org](https://oss.jfrog.org/webapp/#/artifacts/browse/tree/search/quick/eyJzZWFyY2giOiJxdWljayIsInNlbGVjdGVkUmVwb3NpdG9yaWVzIjpbXSwicXVlcnkiOiJlbHBhYXNvKiJ9)
+
 Pending repositories not yet available :
 * elpaaso-samples
 
