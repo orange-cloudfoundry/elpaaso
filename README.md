@@ -56,6 +56,8 @@ Once a bootstrap elpaaso instance is up, it may be used to instanciate, and upgr
 
 # Building and contributing to ElPaaso 
 
+All module build using apache maven, see individual repos for details on how to run unit and integration tests.
+
 TODOs: 
 * design docs
 
