@@ -26,12 +26,11 @@ The artefact binaries are stored on:
 * release are on https://bintray.com/elpaaso
 * snapshots are on [oss.jfrog.org](https://oss.jfrog.org/webapp/#/artifacts/browse/tree/search/quick/eyJzZWFyY2giOiJxdWljayIsInNlbGVjdGVkUmVwb3NpdG9yaWVzIjpbXSwicXVlcnkiOiJlbHBhYXNvKiJ9)
 
-Pending repositories not yet available :
+Pending subrepos yet to publish:
 * elpaaso-samples
 
 # 
 
 TODOs: 
-* add pointer to Cf summit videos + slides
 * design docs
 
