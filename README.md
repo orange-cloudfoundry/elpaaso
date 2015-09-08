@@ -11,7 +11,6 @@ ElPaaso is an add-on to cloudfoundry that provides the following features to int
    
 More details into the related cf-summit "Case Study: Orange Labs & Cloud Foundry" talk:
 
-![screenshot1235](https://cloud.githubusercontent.com/assets/4748380/9734992/bafdcdb4-5637-11e5-82e1-6a18d10776ec.png)
 [![Overview of ElPaaso goals through CfSummit 2015 session](https://cloud.githubusercontent.com/assets/4748380/9734992/bafdcdb4-5637-11e5-82e1-6a18d10776ec.png)](http://fr.slideshare.net/gberche/orange-case-study-48927985)
 
 # Sub repos
