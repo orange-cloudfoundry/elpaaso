@@ -37,5 +37,6 @@ The [web portal overview](web_portal_overview.md) offers some screenshots and vi
 The [logical architecture](logical_architecture.md) is a set of combined services to describe the internal and external needs of the application. Defining a logical architecture consists in determining the number of execution nodes, to associate them logical services specifying with additional functional or technical parameters.
 
 ![a simplified logical architecture](sample_logical_architecture.png)
+
 a sample logical architecture
 
