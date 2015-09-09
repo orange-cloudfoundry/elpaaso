@@ -27,4 +27,5 @@ The available services are:
         * [configuration service](configuration_service.md) - Formalizes the supported configuration entries that the app exposes
 
 ![a sample logical architecture](sample_logical_architecture.png)
-a sample logical architecture
+
+   a sample logical architecture
