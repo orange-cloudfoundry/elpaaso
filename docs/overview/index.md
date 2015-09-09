@@ -2,13 +2,12 @@
 
 ### definition of El PaaSo
 
-The goal of El PaaSo is to help developers in deploying their applications by automating the deployment of platforms for each application. 
-This is achieved by capturing the logical architecture for the application. 
+The goal of El PaaSo is to help developers in deploying their applications by automating their deployment. 
+This is achieved by specifying the architecture for the application, which is used as template for instanciating the application multiple times across build/run cycles (development, testing, pre-production or production environment). 
 
-The logical architecture controls the automated deployment of the application on a platform that fits the needs of part of the application build/run cycle (development, testing, pre-production or production environment). 
-This helps open up the world of build and run by introducing fluidity and continuity between the build, test and run phases.
+ElPaaso ensures reproductibility of deployment in these phases
 
-In summary, elpaaso client only have to manage:
+In summary, elpaaso users only have to manage:
 
 * their code (the application itself),
 * their data (application data),
