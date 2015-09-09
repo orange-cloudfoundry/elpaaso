@@ -4,19 +4,7 @@
 
 The goal of El PaaSo is to ease the build-to-run transition, by automating the application deployment in the different phases of a given app release (development, acceptance testing, pre-production or production environment).
  
-Users specify the architecture for the application, which the system uses as template for reproductibly instanciating the application multiple times and driving updates/rollbacks. 
-
-In summary, elpaaso users focus on:
-
-* their code (the application itself),
-* their data (application data),
-
-While the PaaS provides:
-
-* the provisionning of technical resources (cf apps, services, routes...)
-* the subscription of required common services (e.g. monitoring, inventory/CMDB)
-* the deployment and configuration of the application (through env vars)
-* application monitoring and log management.
+Users specify the architecture for the application, which the system uses as template for reproductibly instanciating the application multiple times and driving upgrades/rollbacks. 
 
 ## interacting with El PaaSo
 
