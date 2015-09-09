@@ -1,13 +1,11 @@
 # Introduction
 
-ElPaaso is an add-on to cloudfoundry that provides the following features to integrate cloudfoundry into organization specifics:
+ElPaaso is an add-on to cloudfoundry that provides the following features to integrate cloudfoundry into specifics of an organization:
 * versionned app templates
+  * artefacts fetched from a corporate java maven repo
+  * app configuration contract
 * organization specific meta service catalog 
 * organization specific meta-data (cost center, application code, ...)
-* common operations
-  * fetch artefacts from a corporate java maven repo
-  * app configuration contract
-  * logs
    
 More details into the related cf-summit "Case Study: Orange Labs & Cloud Foundry" talk:
 
@@ -48,11 +46,12 @@ An ElPaaso instance is made up the following services:
 ## Bootstrapping
    
 Work is planned to fully automate ElPaaso bootstrapping process through a bosh release (with errands pushing 12 factor compatible services to CF).
-For now, services are packaged a spring boot app that need to be pushed on CF. Release binaries are published on bintray (see above). Each sub repo describes the expected/supported config.  
+
+For now, services are packaged as spring boot apps that need to be pushed on CF using CLI. Release binaries are published on bintray (see above). Each sub repo describes the expected/supported config env vars.  
 
 ## Further dogfooding upgrades
 
-Once a bootstrap elpaaso instance is up, it may be used to instanciate, and upgrade other elpaaso instances. 
+Once a bootstrap elpaaso instance is up, it may be used to instanciate, and upgrade other elpaaso instances (cf [dogfooding arch](https://github.com/Orange-OpenSource/elpaaso-core/blob/109a6a09f71832d76ca165a59653cfe77e92d9cf/cloud-paas/cloud-paas-logical-model/src/main/java/com/francetelecom/clara/cloud/logicalmodel/samplecatalog/ElPaaSoTomcatLogicalModelCatalog.java#L42) or [screenshot](user_guide/elpaaso_dogfooding_arch.png). 
 
 # Building and contributing to ElPaaso 
 
