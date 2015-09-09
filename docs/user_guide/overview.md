@@ -3,9 +3,8 @@
 ### definition of El PaaSo
 
 The goal of El PaaSo is to help developers in deploying their applications by automating their deployment. 
-This is achieved by specifying the architecture for the application, which is used as template for instanciating the application multiple times across build/run cycles (development, testing, pre-production or production environment). 
+This is achieved by specifying the architecture for the application, which is used as template for reproductibly instanciating the application multiple times across build/run cycles (development, testing, pre-production or production environment). 
 
-ElPaaso ensures reproductibility of deployment in these phases
 
 In summary, elpaaso users only have to manage:
 
@@ -15,28 +14,28 @@ In summary, elpaaso users only have to manage:
 While the PaaS provides:
 
 * the provisionning of technical resources (cf apps, routes)
-* the subscription of required common services (e.g. monitoring, inventory)
+* the subscription of required common services (e.g. monitoring, inventory/CMDB)
 * the deployment and configuration of the application (through env vars)
 * application monitoring and log management.
 
 
 ## interacting with El PaaSo
 
-The main way to use El PaaSo is through a web UI that offers the following features:
+The main way to use El PaaSo is through the following flow in the web UI:
 
-* declaring an application,
-* creating a release of an application,
-* defining a logical architecture (see-below) for a version
-* instantiating new environments based on previously generated templates (for development, testing, pre-production or production purpose)
-* managing these environments (stop, start, delete, access to logs and metrics...)
+* declaring an application
+* creating a release of an application
+* defining a logical architecture (see-below) for a release version
+* instantiating new environments for a release (for development, testing, pre-production or production purpose)
+* managing these environments (stop, start, access to logs and metrics, delete ...)
 
-The [web portal overview](web_portal_overview.md) offers some screenshots and videos explaining how to use the web UI.
+The [web portal overview](web_portal_overview.md) offers some screenshots illustrating this woork flow in the UI.
 
 The [SOAP API](north_api.md) is also available for automation or providing other UIs.
 
 ## the logical architecture and service catalog
 
-The [logical architecture](logical_architecture.md) is a set of combined services to describe the internal and external needs of the application. Defining a logical architecture consists in determining the number of execution nodes, to associate them logical services specifying with additional functional or technical parameters.
+The [logical architecture](logical_architecture.md) is a set of combined services describing the internal and external needs of the application. 
 
 ![a simplified logical architecture](sample_logical_architecture.png)
 
