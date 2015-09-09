@@ -60,7 +60,7 @@ All module build using apache maven, see individual repos for details on how to 
 
 ## Architecture and design
 
-See [data model](http://fr.slideshare.net/gberche/orange-case-study-48927985/18), [architecture block diagram](http://fr.slideshare.net/gberche/orange-case-study-48927985/19)
+See [data model](http://fr.slideshare.net/gberche/orange-case-study-48927985/28), [architecture block diagram](http://fr.slideshare.net/gberche/orange-case-study-48927985/29)
 
 Further details in the elpaaso-core javadoc (pending publication of the html rendering, entry point in [overview.html](https://rawgit.com/Orange-OpenSource/elpaaso-core/master/src/main/javadoc/overview.html))
 
