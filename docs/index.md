@@ -1,6 +1,6 @@
 # El PaaSo user documentation
 
-* [overview](overview/index.html)
-* [user guide](user_guide/index.html)
-* [releases notes](release_notes/release_notes.html)
+* [overview](overview/index.md)
+* [user guide](user_guide/index.md)
+* [releases notes](release_notes/release_notes.md)
 

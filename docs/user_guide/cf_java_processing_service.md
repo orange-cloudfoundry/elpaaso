@@ -60,9 +60,9 @@ Logs can be accessed on the *processing service logs* link next to the processin
 The application should comply with a moderately constrained programming model similar to JavaEE
 model, see http://12factor.net/, in particular
 
-* The file system is ephemeral and should not be relied upon for persistent data. The application should use the data related services instead (see [relational database service](relational_database_service.html) or [using the blob store service](blob_store_service.html)).
+* The file system is ephemeral and should not be relied upon for persistent data. The application should use the data related services instead (see [relational database service](relational_database_service.md) or [using the blob store service](blob_store_service.md)).
 * Prefer stateless processing: the underlying OS container may not provide high availability (HA) and uptime guarantees, the application should favour storing state on data related services than relying on in memory caches/stores.
-* No direct network access: the application instead should use communication services to communicate with other processing services within the application (see [internal MOM service](internal_mom_service.html)) or with other applications (see Web Service and Point-to-point messaging)
+* No direct network access: the application instead should use communication services to communicate with other processing services within the application (see [internal MOM service](internal_mom_service.md)) or with other applications (see Web Service and Point-to-point messaging)
 
 ### stateless processing nodes
 

@@ -6,7 +6,7 @@ El PaaSo relational database service (RDS) provides relational databases includi
 
 El PaaSo RDS allows you to request a database providing its SQL dialect (MySQL or PostgreSQL) and its storage size. The created database is made available through cloudfoundry VCAP_SERVICES environment variable, under the specified service instance name.
 
-There are other ways to store data, such as [blob store service](blob_store_service.html) for flat files and binary files.
+There are other ways to store data, such as [blob store service](blob_store_service.md) for flat files and binary files.
 
 NoSQL might be another good alternative to relational database in a near future.
 
