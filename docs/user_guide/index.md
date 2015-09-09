@@ -1,10 +1,10 @@
 # El PaaSo overview
 
-## definition of El PaaSo
+## Goal
 
 The goal of El PaaSo is to ease the build-to-run transition, by automating the application deployment in the different phases of a given app release (development, acceptance testing, pre-production or production environment).
  
-Users specify the architecture for the application, which the system uses as template for reproductibly instanciating the application multiple times. 
+Users specify the architecture for the application, which the system uses as template for reproductibly instanciating the application multiple times and driving updates/rollbacks. 
 
 In summary, elpaaso users focus on:
 
