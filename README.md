@@ -58,6 +58,9 @@ Once a bootstrap elpaaso instance is up, it may be used to instanciate, and upgr
 
 All module build using apache maven, see individual repos for details on how to run unit and integration tests.
 
-TODOs: 
-* design docs
+## Architecture and design
+
+See [data model](http://fr.slideshare.net/gberche/orange-case-study-48927985/18), [architecture block diagram](See [data model](http://fr.slideshare.net/gberche/orange-case-study-48927985/19)
+
+Further details in the elpaaso-core javadoc (pending publication of the html rendering, entry point in [overview.html](https://rawgit.com/Orange-OpenSource/elpaaso-core/master/src/main/javadoc/overview.html))
 
