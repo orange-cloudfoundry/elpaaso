@@ -1,6 +1,6 @@
 # Introduction
 
-ElPaaso is an add-on to cloudfoundry that provides the following features to integrate cloudfoundry into specifics of an organization:
+ElPaaso is an experimental add-on to cloudfoundry. It aims at integrating specifics of an organization through the following features:
 * versionned app templates
   * artefacts fetched from a corporate java maven repo
   * app configuration contract
