@@ -30,9 +30,11 @@ The main way to use El PaaSo is through a web UI that offers the following featu
 * instantiating new environments based on previously generated templates (for development, testing, pre-production or production purpose)
 * managing these environments (stop, start, delete, access to logs and metrics...)
 
-The [web portal overview](web_portal_overview.md) offers some screenshots and videos explaining how to use the web portal.
+The [web portal overview](web_portal_overview.md) offers some screenshots and videos explaining how to use the web UI.
 
-## the logical architecture
+The [SOAP API](north_api.md) is also available for automation or providing other UIs.
+
+## the logical architecture and service catalog
 
 The [logical architecture](logical_architecture.md) is a set of combined services to describe the internal and external needs of the application. Defining a logical architecture consists in determining the number of execution nodes, to associate them logical services specifying with additional functional or technical parameters.
 

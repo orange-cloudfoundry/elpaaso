@@ -44,3 +44,6 @@ Screenshots give a better idea of how to use El PaaSo and its web UI.
 
 ![instanciating and managing environments](create_environnement.png)
 
+## Using sample applications  
+
+Additionally you can start [using the sample applications available in the PaaS](sample_applications.md).
