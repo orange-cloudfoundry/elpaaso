@@ -51,7 +51,7 @@ For now, services are packaged as spring boot apps that need to be pushed on CF 
 
 ## Further dogfooding upgrades
 
-Once a bootstrap elpaaso instance is up, it may be used to instanciate, and upgrade other elpaaso instances (cf [dogfooding arch](https://github.com/Orange-OpenSource/elpaaso-core/blob/109a6a09f71832d76ca165a59653cfe77e92d9cf/cloud-paas/cloud-paas-logical-model/src/main/java/com/francetelecom/clara/cloud/logicalmodel/samplecatalog/ElPaaSoTomcatLogicalModelCatalog.java#L42) or [screenshot](user_guide/elpaaso_dogfooding_arch.png). 
+Once a bootstrap elpaaso instance is up, it may be used to instanciate, and upgrade other elpaaso instances (cf [dogfooding arch](https://github.com/Orange-OpenSource/elpaaso-core/blob/109a6a09f71832d76ca165a59653cfe77e92d9cf/cloud-paas/cloud-paas-logical-model/src/main/java/com/francetelecom/clara/cloud/logicalmodel/samplecatalog/ElPaaSoTomcatLogicalModelCatalog.java#L42) or [screenshot](user_guide/elpaaso_dogfooding_arch.png)). 
 
 # Building and contributing to ElPaaso 
 
