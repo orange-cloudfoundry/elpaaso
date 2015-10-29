@@ -19,8 +19,8 @@ This is ElPaaSo umbrella repository. It contains some documentation and links to
 * [elpaaso-system-test-apps](https://github.com/Orange-OpenSource/elpaaso-system-test-apps) apps used for automated system tests  [![Build Status](https://travis-ci.org/Orange-OpenSource/elpaaso-system-test-apps.svg?branch=master)](https://travis-ci.org/Orange-OpenSource/elpaaso-system-test-apps)
 * [elpaaso-wsdl](https://github.com/Orange-OpenSource/elpaaso-wsdl) WSDL contract for SOAP API  [![Build Status](https://travis-ci.org/Orange-OpenSource/elpaaso-wsdl.svg?branch=master)](https://travis-ci.org/Orange-OpenSource/elpaaso-wsdl)
 * [elpaaso-plugins-management](https://github.com/Orange-OpenSource/elpaaso-plugins-management) common maven plugin config shared among repos [![Build Status](https://travis-ci.org/Orange-OpenSource/elpaaso-plugins-management.svg?branch=master)](https://travis-ci.org/Orange-OpenSource/elpaaso-plugins-management)
-* [elpaaso-sandbox-ui](https://github.com/Orange-OpenSource/elpaaso-sandbox-ui)
-* [elpaaso-sandbox-service](https://github.com/Orange-OpenSource/elpaaso-sandbox-service)
+* [elpaaso-sandbox-service](https://github.com/Orange-OpenSource/elpaaso-sandbox-service) provisions private CF sandbox spaces on demand
+* [elpaaso-sandbox-ui](https://github.com/Orange-OpenSource/elpaaso-sandbox-ui) Web UI for users to get private sandbox spaces on demand
 
 Pending subrepos yet to publish:
 * elpaaso-samples
